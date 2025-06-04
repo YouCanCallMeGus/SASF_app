@@ -1,0 +1,21 @@
+.content {
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+
+.field-choice {
+  background-color: #2563eb;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: auto;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  width: 80vw;
+}
+
+.field-choice:hover {
+  background-color: blue;
+  cursor: pointer;
+}
