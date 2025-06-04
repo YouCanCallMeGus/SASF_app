@@ -2,9 +2,10 @@ import { Grid } from '@mui/material'
 import './App.css'
 import { useState } from 'react'
 import Orientador from './components/orientador'
+import Success from './components/success'
 
 function App() {
-  const [component, setComponent] = useState(0)
+  const [component, setComponent] = useState(2)
   return (
     <div className="components">
       { component == 0?
@@ -21,7 +22,9 @@ function App() {
         :
         component ==1? <Orientador setComponent={setComponent}></Orientador>
         :
-        "as"
+        component == 2? <Success setComponent={setComponent}></Success>
+        :
+        "failed"
       }
     </div>
   )

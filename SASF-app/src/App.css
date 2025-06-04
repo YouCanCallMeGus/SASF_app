@@ -19,3 +19,15 @@
   background-color: blue;
   cursor: pointer;
 }
+
+.success-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center;
+}
+
+img, button {
+  margin: 0 auto;
+}
+

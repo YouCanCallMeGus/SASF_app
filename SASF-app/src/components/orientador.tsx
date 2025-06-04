@@ -23,7 +23,9 @@ export default function Orientador({setComponent}:setComponentProp) {
                 margin: "20px auto",
                 display: "flex",
                 justifyContent: "center",
-            }}>Salvar</button>
+            }}
+            onClick={() => setComponent(2)}
+            >Salvar</button>
         </div>
     )
 }
